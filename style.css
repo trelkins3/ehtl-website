@@ -1,0 +1,15 @@
+header{
+	position: relative;
+}
+
+nav{
+	float: center;
+}
+
+.OSULogo {
+	float: left;
+}
+
+.EHTLLogo {
+	/*float: right;*/
+}
