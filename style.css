@@ -1,38 +1,75 @@
 header{
-	background-color: #DC4405;
+	background-color: #EA470E;
 	width: 100%;
-	height: 85px;
+	height: 100px;
 	position: fixed;
 	top: 0px;
 	left: 0px;
 }
 
-nav{
-	float: center;
+header h1 {
+  display: inline-block;
+  position: relative;
+  font-size: 72px;
+  font-weight: 200;
+  margin: 5px 20px;
 }
 
-ul{
-	list-style: none;
-	display: inline;
+nav {
+  background-color: black;
+  color: white;
+  margin-top: -30px;
+  font-size: 28px;
+  font-weight: 200;
+
 }
 
-li{
-	display: inline-block;
+a {
+	/* Might want to change the font family here somewhere... the default is boring */
+	text-decoration: none;
 }
 
-h1{
-	display: inline;
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 20px;
+}
+
+.navbar-item {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar-item a {
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+}
+
+.navbar-item a:hover {
+  background-color: #444;
 }
 
 .OSULogo{
 	position: relative;
 	float: left;
 	margin-top: 0px;
+	top: -4px;
 }
 
-.EHTLlogo{
+.EHTLLogo{
+	position: fixed;
 	float: right;
-	/*position: relative;*/
-	margin-top: 10px;
-	/*right: -530px;*/
+	right: -530px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
 }
