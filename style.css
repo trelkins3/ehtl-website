@@ -13,15 +13,16 @@ header h1 {
   font-size: 72px;
   font-weight: 200;
   margin: 5px 20px;
+  margin-top: 20px;
 }
 
 nav {
+  position: relative;
   background-color: black;
   color: white;
   margin-top: -30px;
   font-size: 20px;
   font-weight: 200;
-
 }
 
 a {
@@ -37,8 +38,13 @@ a {
 
 .navbar-item {
   display: inline;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: -2px;
+  padding-right: -2px;
+}
+
+.navbar-item hover {
+	background-color: #444;
+	text-decoration: underline;
 }
 
 .navbar-item a {
@@ -56,21 +62,32 @@ a {
 	position: relative;
 	float: left;
 	margin-top: 0px;
-	top: -4px;
+	top: -8px;
 }
 
+/* Don't like the way this sits on the page... */
 .EHTLLogo{
-	position: fixed;
+	position: relative;
 	float: right;
-	right: -530px;
+	right: -950px;
+	top: -3px;
 }
 
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
+  position: relative;
+  bottom: -900px;
+  left: -10px;
+  width: 110%;
+  height: 28px;
   background-color: black;
-  text-align: center;
+  color: white;
+  text-align: left;
+}
+
+html, body {
+	width: 100%;
+	height:100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
